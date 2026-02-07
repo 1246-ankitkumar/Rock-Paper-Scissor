@@ -25,7 +25,7 @@ const showWinner=(UserWin,userChoice,compChoice)=>{
     else{
         comScore++;
         console.log("you loose");
-         msg.innerText=`You Loss  | your ${compChoice} beats ${userChoice}`;
+         msg.innerText=`You Loss  | Computer ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor="red";
         compScoreP.innerText=comScore;
         
@@ -74,3 +74,4 @@ const showWinner=(UserWin,userChoice,compChoice)=>{
     });
 
 });
+
